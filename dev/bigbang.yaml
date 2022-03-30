@@ -10,7 +10,7 @@ metadata:
   namespace: bigbang
 spec:
   interval: 1m
-  url: https://github.com/cheruvu1/bb-template-29.git
+  url: https://github.com/cheruvu1/bb-template-29
   ref:
     branch: temp29
   secretRef:
