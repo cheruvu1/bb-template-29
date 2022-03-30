@@ -12,7 +12,7 @@ spec:
   interval: 1m
   url: https://github.com/cheruvu1/bb-template-29
   ref:
-    branch: temp29
+    branch: env/temp29
   secretRef:
     name: private-git
 ---
