@@ -60,6 +60,19 @@ gatekeeper:
           cpu: 200m
           memory: 256Mi
 
+istio:
+  enabled: true
+
+istiooperator:
+  enabled: true
+
+jaeger:
+  enabled: true
+
+kiali:
+  enabled: true
+
+  
 kyverno:
   values:
     replicaCount: 1
