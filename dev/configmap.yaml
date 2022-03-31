@@ -63,6 +63,15 @@ gatekeeper:
 istio:
   enabled: true
 
+istiooperator:
+  enabled: true
+
+jaeger:
+  enabled: true
+
+kiali:
+  enabled: true
+
 kyverno:
   values:
     replicaCount: 1
