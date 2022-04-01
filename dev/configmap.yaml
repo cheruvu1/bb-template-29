@@ -64,6 +64,13 @@ kyverno:
   values:
     replicaCount: 1
 
+istio:
+  enabled: true
+
+istiooperator:
+  enabled: true
+  
+
 twistlock:
   enabled: false
   values:
