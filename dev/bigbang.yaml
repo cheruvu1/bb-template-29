@@ -10,9 +10,9 @@ metadata:
   namespace: bigbang
 spec:
   interval: 1m
-  url: https://replace-with-your-git-repo.git
+  url: https://github.com/cheruvu1/bb-template-29
   ref:
-    branch: replace-with-your-branch
+    branch: env/bb100
   secretRef:
     name: private-git
 ---
