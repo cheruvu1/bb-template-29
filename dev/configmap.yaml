@@ -4,6 +4,12 @@ flux:
   interval: 1m
   rollback:
     cleanupOnFail: false
+    
+istio:
+  enabled: true
+  
+istiooperator:  
+  enabled: true
 
 logging:
   values:
